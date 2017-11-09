@@ -1,0 +1,131 @@
+.signup-wrapper, .login-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+}
+
+.signup-container, .login-container{
+    background-color: #ffffff;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    border-radius: 10px;
+}
+
+.signup-heading, .login-heading{
+    font-size: 45px;
+    font-weight: normal;
+    font-family: serif;
+    letter-spacing: 10px;
+	margin:40px 0 15px 0;
+    color: #9c602b;
+}
+
+.signup-input, .login-input{
+    width: 320px;
+    font-size: 12px;
+    padding: 12px;
+    border: 1px solid #dfe8f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.23);
+}
+
+.signup-btn, .input-btn{
+    padding: 14px 140px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: #FF5722;
+}
+
+.signup-btn{
+    margin-bottom:36px;
+}
+
+.signup-info{
+    font-size: 25px;
+    margin: 5px;
+    color: #793c25;
+}
+
+
+.signup-warning{
+    position: absolute;
+    top: 76%;
+    left: 45%;
+    font-size: 20px;
+    color: #ef8d8d;
+    font-family: monospace;
+	display:inline-block;
+}
+
+.warning{
+	font-size: 16px;
+	color: #ec4444;
+}
+
+.login-warning p{
+    font-size: 16px;
+    color: #ec4444;
+    margin-bottom: 30px;
+}
+
+.email-btn{
+	margin: 35px 0 25px 0;
+    padding: 14px 140px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: #63dc68;
+}
+
+.email-info{
+    font-size: 25px;
+    margin: 5px 5px 80px 5px;
+    color: #793c25;
+	
+}
+
+.login-btn{
+    padding: 14px 140px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0 45px 0;
+    cursor: pointer;
+    background-color: #FF5722;
+}
+
+.display-inlineblock{
+	display:inline-block;
+}
+
+/*•Â‚¶‚éƒ{ƒ^ƒ“*/
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+/* modal */
+.modal{
+	display:none;
+}
+
+.active{
+	display:block;
+}
+

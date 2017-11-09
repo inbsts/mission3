@@ -1,0 +1,117 @@
+body{
+    background-color: #f2f9f8;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 2000;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(160,166,179,0.3);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.header-right{
+    margin-right: 28px;
+    float:right;
+    height:100%;
+}
+
+.header-left{
+    margin-left: 25px;
+    float:left;
+    height:100%
+}
+
+
+.header-left h2{
+    margin: 0;
+    line-height: 49px;
+    margin-left:20px;
+    margin-left:20px;
+}
+
+
+.header-right a{
+    letter-spacing: 4px;
+    color: black;
+    height: 58%;
+    width: 100px;
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.header-right a:hover{
+    border-bottom: 5px solid rgba(255, 152, 0, 0.69);
+}
+
+
+.main{
+    background-image:url("image/book.jpg");
+    background-size:cover;
+    height: 700px;
+    text-align:center;
+}
+.heading-wrapper{
+    display: inline-block;
+    margin-top: 174px;
+}
+
+.heading-wrapper h1{
+    color: aliceblue;
+    font-size: 76px;
+    letter-spacing: 18px;
+    margin-bottom:55px;
+}
+
+.heading-wrapper h3{
+    color: aliceblue;
+}
+
+.btn{
+    width: 250px;
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: rgba(255, 152, 0, 0.63);
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.57);
+}
+
+.btn a{
+    line-height: 53px;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    font-size: 23px;
+    letter-spacing: 5px;
+    font-family: serif;
+}
+
+.btn a:hover {
+    background-color: rgba(255, 152, 0, 0.8);
+}
+
+.signup{
+    color: rgba(255, 255, 255, 0.78);
+    display: inline-block;
+    margin-top: 38px;
+    letter-spacing: 8px;
+}
+
+.signup:hover{
+    color: rgba(255, 255, 255, 1);
+}

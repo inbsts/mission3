@@ -1,0 +1,372 @@
+body{
+    background-color: #f2f9f8;
+    margin:0;
+    text-align:center;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    z-index: 2000;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(160,166,179,0.3);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.header-right{
+    margin-right: 28px;
+    float:right;
+    height:100%;
+}
+
+.header-left{
+    margin-left: 25px;
+    float:left;
+    height:100%
+}
+
+
+.header-left a{
+    display: inline-block;
+    height: 100%;
+    font-size: 30px;
+}
+
+
+.header-right a{
+    height: 58%;
+    width: 100px;
+    display: inline-block;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.header-right a:hover{
+    border-bottom: 5px solid rgba(255, 152, 0, 0.69);
+}
+
+.main-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.title{
+    background-color: #a8f3ab;
+    text-align:center;
+    width: 100%;
+}
+
+.title h1{
+    letter-spacing: 11px;
+    font-size: 116px;
+    font-family: monospace;
+    color: hsl(187, 100%, 99%);
+    text-shadow: 1px 1px 5px #080808;
+}
+
+.cards{
+    margin-top: 50px;
+}
+
+.cards-container .title{
+    width: 100%;
+}
+
+.cards-container .title h1{
+    margin:0;
+}
+
+.btns-wrapper{
+    display:inline-block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards-container{
+    margin-bottom:2%;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.23);
+}
+
+.input-text{
+    height: 100px;
+    display: inline-block;
+    width: 87%;
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-size: 23px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+}
+
+.textarea{
+    height: 158px;
+    display: inline-block;
+    width: 87%;
+    padding: 30px;
+    margin: 30px 10px 24px;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 6px;
+}
+
+.btns2{
+    padding: 10px 0 17px;
+    background: #ffffff;
+}
+
+.btn1{
+    margin: 20px 37px;
+    display: inline-block;
+    background-color: rgba(18, 197, 170, 0.88);
+    width: 139px;
+    height: 52px;
+    border-radius: 0;
+    text-align: center;
+    font-size: 31px;
+    font-family: cursive;
+    color: ghostwhite;
+    font-weight: bold;
+    box-shadow: rgb(17, 134, 116) 0px 10px 0px 0px;
+}
+.btn2{
+    line-height: 6em;
+    margin: 0 15px;
+    display: inline-block;
+    background-color: #FF5722;
+    width: 75px;
+    height: 72px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: cursive;
+    color: ghostwhite;
+    font-weight: bold;
+    box-shadow: rgb(101, 26, 2) 0px 7px 0px 0px;
+}
+
+.btn1:active, .btn2:active{
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+}
+
+.btns1{
+    padding-top:40px;
+    margin-bottom:3%;
+}
+
+
+#add, .edit{
+    margin-top: 50px;
+    padding-bottom:40px;
+}
+
+.close-btn{
+    background-color: #b3b090;
+    color: #f9f3f3;
+    width: 5%;
+    height: 5%;
+    border-radius: 48px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: x-large;
+    font-family: -webkit-pictograph;
+    box-shadow: 0px 4px 0px 0px #3a3737;
+}
+
+.close-btn:active{
+    box-shadow:none;
+    position:relative;
+	top:6px;
+}
+
+.submit-btn{
+    width: 87%;
+    height: 60px;
+    font-size: 39px;
+    font-family: fantasy;
+    color: beige;
+    background-color: #FF5722;
+    letter-spacing: 5px;
+    border-radius: 19px;
+    box-shadow: 0px 12px 0px 0px rgb(66, 20, 5);
+}
+
+.btn1:hover, .btn2:hover, .close-btn:hover, .submit-btn:hover{
+    cursor: pointer;
+}
+
+.btns2 .container{
+    padding: 7px 0;
+    display: inline-block;
+    height: 82px;
+}
+
+#add{
+    display:none;
+}
+
+#edit{
+    margin-top: 4%;
+}
+
+#edit .container{
+    width: 75%;
+    margin: auto;
+}
+/*------card------*/
+
+.cards-container{
+    padding-bottom: 35px;
+    display: inline-block;
+    background-color: #d3ebf7;
+    width: 80%;
+    height: auto;
+    margin: 0 10% auto;
+    min-width:60em;
+}
+
+.card-wrapper{
+    height:22%;
+    margin-top: 30px;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.card{
+    background-color: #f9f9f9;
+    width: 237px;
+    height: 146px;
+    display: inline-block;
+    line-height: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 3px 5px 4px 0px;
+    border-radius: 2px;
+}
+
+.card:hover {
+    box-shadow: 3px 4px 10px 3px rgba(0, 0, 0, 0.51);
+    cursor: pointer;
+}
+
+.card h3{
+    line-height: 100%;
+    display: inline-block;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+
+.card-detail{
+    display: block;
+    position: relative;
+    top: -16.5em;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: rgb(251, 232, 226);
+    border-radius: 15px;
+    box-shadow: 1px 8px 20px 1px rgba(8, 8, 8, 0.38);
+    display: none;
+}.card-detail:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #fbe1d9;
+
+}
+/*
+.back, .card-detail, .card-wrapper form{
+    display:none;
+}
+*/
+/*
+.back, .card-wrapper form{
+    display:none;
+}
+*/
+
+
+.dark_background{
+    min-height: 100%;
+    height: auto;
+    padding-bottom:10%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.76);
+    z-index: 2000;
+    width: 100%;
+    display:none;
+}
+
+.dark_background h1{
+    font-weight: 100;
+    position: relative;
+    top: 26px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 6px black;
+    width: 60%;
+    margin: 21px auto;
+}
+.delete-back{
+    background-color: rgba(19, 18, 17, 0.65);
+    display: inline-block;
+}
+
+#alarm{
+    color: #f1f0ef;
+    font-size: 19px;
+    margin-top: 32px;
+}
+
+
+.yes-btn{
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 80px;
+    height: 38px;
+    font-size: larger;
+    color: #F44336;
+}
+
+.edit-card{
+    width: 100%;
+    height: 100%;
+    margin-top: -124px;
+    background-color: rgba(251, 251, 248, 0);
+    cursor: pointer;
+}
+
+.dark-close{
+    display: inline-block;
+    float: right;
+    margin-right: 84px;
+    border-radius: 0px;
+    margin-top: -39px;
+    box-shadow: 0px 5px #68d0ff;
+    background-color: rgba(3, 169, 244, 0.56);
+}
+
+.back{
+    display:none;
+}
